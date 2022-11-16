@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { MatCardModule} from '@angular/material/card';
 import { ProverbCardComponent } from './proverb-card/proverb-card.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { ProverbsComponent } from './proverbs/proverbs.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProverbCardComponent
+    ProverbCardComponent,
+    PagenotfoundComponent,
+    ProverbsComponent
   ],
   imports: [
     BrowserModule,
