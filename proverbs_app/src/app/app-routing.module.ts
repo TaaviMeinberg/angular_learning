@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AppComponent } from './app.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { ProverbsComponent } from './proverbs/proverbs.component';
 
 const routes: Routes = [
-  { path: 'test', component: PagenotfoundComponent },
+  { path: '', component: ProverbsComponent },
   { path: '**', component: PagenotfoundComponent }
 ];
 
