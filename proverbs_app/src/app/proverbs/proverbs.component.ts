@@ -13,4 +13,8 @@ export class ProverbsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  newProverb() {
+    alert('Show button clicked!');
+  }
+
 }
