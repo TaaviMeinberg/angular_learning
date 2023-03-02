@@ -13,7 +13,7 @@
       
     </div>
     <div ngClass="flex-item">
-      <app-proverb-card></app-proverb-card>
+      <app-proverb-card [proverbNumber]="proverbNumber" [proverbText]="proverbText"></app-proverb-card>
       <br>
       <app-button (click)="newProverb()" text="uus vanasõna"></app-button>
     </div>
